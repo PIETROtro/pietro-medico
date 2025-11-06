@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f6fa;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .container {
+    margin: 40px auto;
+    width: 80%;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  }
+  
+  h1 {
+    color: #2b4d8c;
+  }
+  
+  #relogio {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .botoes button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    background-color: #2b4d8c;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .botoes button:hover {
+    background-color: #1e3562;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  th {
+    background-color: #2b4d8c;
+    color: white;
+  }
+  
+  #proxima-senha {
+    font-size: 24px;
+    margin: 15px 0;
+    color: #d42b2b;
+    font-weight: bold;
+  }

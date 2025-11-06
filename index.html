@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atendimento Médico</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h1>UNIDADE DE PRONTO ATENDIMENTO PIETRO 25 HORAS</h1>
+    <div id="relogio"></div>
+
+    <div class="botoes">
+      <button onclick="gerarSenha('normal')">Senha Normal</button>
+      <button onclick="gerarSenha('preferencial')">Senha Preferencial</button>
+    </div>
+
+    <h2>Fila de Atendimento</h2>
+    <table id="tabela-senhas">
+      <thead>
+        <tr>
+          <th>Número</th>
+          <th>Tipo</th>
+          <th>Horário</th>
+        </tr>
+      </thead>
+      <tbody id="lista-senhas">
+      </tbody>
+    </table>
+
+    <h2>Próxima Senha a ser chamada:</h2>
+    <div id="proxima-senha">Nenhuma ainda</div>
+    <button onclick="chamarProximo()">Chamar Próximo</button>
+  </div>
+</body>
+</html>
